@@ -1,0 +1,27 @@
+{
+  "name": "express-website-template",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -e js,scss,ejs,json . & npm run scss",
+    "scss": "sass --watch public/sass/sunflower.scss public/css/sunflower.css"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "ejs": "^3.1.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.1",
+    "morgan": "~1.9.1",
+    "sass": "^1.26.10",
+    "sass-folder-converter": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": "A simple template for website created with Express JS.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
